@@ -12,7 +12,7 @@ const UseForecast = () => {
   const fetchCity = async (value: string) => {
     try {
       const { data } = await axios.get(
-        `http://api.openweathermap.org/geo/1.0/direct?q=${value.trim()}&limit=5&appid=${API_KEY}`
+        `https://api.openweathermap.org/geo/1.0/direct?q=${value.trim()}&limit=5&appid=${API_KEY}`
       )
       setOptions(data)
       console.log(data)

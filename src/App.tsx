@@ -8,7 +8,7 @@ const App: React.FC = () => {
   } = UseForecast()
 
   return (
-    <main className="flex justify-center items-center bg-gradient-to-br from-sky-500 to-orange-500 h-[100vh] w-full">  
+    <main className="flex justify-center items-center bg-gradient-to-br from-sky-500 to-orange-500 min-h-screen w-full">  
     {forecast ? (<Forecast data={forecast}/>) : (
     <Search term={term} options={options} onInputChange={onInputChange} onOptionSelect={onOptionSelect} onSubmit={onSubmit}/>
   )}
