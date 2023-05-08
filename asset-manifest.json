@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Redligstone/WeatherApp/static/css/main.fe4ce683.css",
-    "main.js": "/Redligstone/WeatherApp/static/js/main.0a6b18ce.js",
-    "index.html": "/Redligstone/WeatherApp/index.html",
-    "main.fe4ce683.css.map": "/Redligstone/WeatherApp/static/css/main.fe4ce683.css.map",
-    "main.0a6b18ce.js.map": "/Redligstone/WeatherApp/static/js/main.0a6b18ce.js.map"
+    "main.css": "/WeatherApp/static/css/main.fe4ce683.css",
+    "main.js": "/WeatherApp/static/js/main.0a6b18ce.js",
+    "index.html": "/WeatherApp/index.html",
+    "main.fe4ce683.css.map": "/WeatherApp/static/css/main.fe4ce683.css.map",
+    "main.0a6b18ce.js.map": "/WeatherApp/static/js/main.0a6b18ce.js.map"
   },
   "entrypoints": [
     "static/css/main.fe4ce683.css",
